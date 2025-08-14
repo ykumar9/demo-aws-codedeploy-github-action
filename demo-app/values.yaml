@@ -1,0 +1,9 @@
+namespace: default
+
+image:
+  repository: REPO_URI  
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 80
